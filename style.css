@@ -1,0 +1,615 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Navbar CSS */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.logo h1 {
+    font-size: 50px;
+
+}
+
+.navbar li {
+    display: flex;
+    justify-content: space-evenly;
+    display: inline;
+    list-style: none;
+
+    padding: 30px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 27px;
+    padding: 0px;
+    color: black;
+    font-weight: 400;
+}
+
+.navbar li a:hover {
+    color: rgb(132, 86, 176);
+}
+
+
+/* Main Box CSS */
+
+.main {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: -50px 0px;
+    height: 100vh;
+
+}
+
+/* infobox CSS */
+.infobox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 100px;
+}
+
+.heading1 {
+    font-size: 40px;
+
+}
+
+.heading2 {
+    font-size: 25px;
+    color: rgb(59, 58, 58);
+}
+
+.heading3 {
+    font-size: 20px;
+    color: rgb(59, 58, 58);
+}
+
+
+/* PhotoBox CSS */
+.photobox img {
+    height: 500px;
+    width: 500px;
+    border-radius: 1000px;
+    box-shadow: 5px 5px 58px 7px black;
+}
+
+.photobox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+    height: 500px;
+    margin-top: 150px;
+}
+
+/* Buttonbox */
+
+.buttonbox {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: left;
+
+}
+
+.button {
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(132, 113, 238, 0.7);
+
+
+}
+
+.button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white
+}
+
+.button:hover {
+    background-color: rgb(163, 148, 251);
+}
+
+/* Icon CSS */
+.icons {
+    display: flex;
+    justify-content: center;
+    justify-content: left;
+
+
+}
+
+.icon {
+    padding: 20px;
+    font-size: 50px;
+    color: rgb(178, 177, 179);
+    padding-left: 0px;
+    padding-right: 26px;
+
+
+
+}
+
+.icon:hover {
+    color: rgb(75, 74, 74);
+
+}
+
+
+/* 88888888888888888888888888888888888888888888888 */
+/* 88888888888888888888888888888888888888888888888 */
+
+/* About Me CSS */
+.about {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.section2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.aboutme {
+    margin-right: 40px;
+    font-size: 30px;
+    color: rgb(160, 82, 227);
+
+
+}
+
+.photobox2 img {
+    height: 427px;
+    width: 347px;
+    margin-right: 100px;
+    box-shadow: 3px 3px 73px 12px black;
+    border-radius: 10px;
+
+}
+
+.info {
+    display: flex;
+
+    align-items: center;
+    width: 800px;
+    height: 100px;
+    font-size: 30px;
+
+}
+
+.info p {
+    color: rgb(59, 58, 58);
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 2;
+}
+
+.threebox {
+
+    display: flex;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 30px;
+    box-shadow: 5px 2px;
+    margin: 20px;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+}
+
+.m {
+    text-align: center;
+}
+
+.button3 {
+    width: 260px;
+    height: 60px;
+    background-color: rgb(132, 113, 238, 0.7);
+    border: none;
+    border-radius: 10px;
+}
+
+.button3 a {
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+
+
+}
+
+
+.aboutinfobox {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+/* 88888888888888888888888888888888888888888888888888888888888 */
+/* 88888888888888888888888888888888888888888888888888888888888 */
+
+.project {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.headline {
+    font-size: 50px;
+    text-align: center;
+    margin-right: 40px;
+    color: rgb(160, 82, 227);
+    margin-right: 0pxs;
+    height: 300px;
+    width: 400px;
+
+
+}
+
+.projectscontainer {
+    display: flex;
+
+    border-radius: 40px;
+    height: 600px;
+    width: 1500px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 0px;
+
+
+
+}
+
+.projectbox {
+    height: 400px;
+    width: 400px;
+    border: 1px solid gray;
+    background-color: rgb(234, 230, 230);
+    box-shadow: 3px 3px 57px 0px black;
+    justify-content: center;
+    justify-content: space-evenly;
+    display: flex;
+    transition-duration: 0.5s;
+    flex-direction: column;
+
+
+}
+
+#project1:hover {
+    height: 510px;
+    width: 510px;
+    background-color: white;
+
+}
+
+#project2:hover {
+    height: 510px;
+    width: 510px;
+    background-color: white;
+}
+
+#project3:hover {
+    height: 510px;
+    width: 510px;
+    background-color: white;
+}
+
+/* Project 1 CSS */
+.title1 p {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+}
+
+.img1 img {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+}
+
+.domain1 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.readmore {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Project2 CSS */
+
+.title2 p {
+    display: flex;
+    font-size: 21px;
+    justify-content: center;
+    font-weight: 300;
+}
+
+.img2 {
+    display: flex;
+    justify-content: center;
+}
+
+.img2 img {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+}
+
+.domain2 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.readmore {
+    display: flex;
+    justify-content: center;
+}
+
+/* Project3 CSS */
+
+.title3 p {
+    display: flex;
+    font-size: 21px;
+    justify-content: center;
+    font-weight: 300;
+}
+
+.img3 {
+    display: flex;
+    justify-content: center;
+}
+
+.img3 img {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+}
+
+.domain3 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.readmore {
+    display: flex;
+    justify-content: center;
+}
+
+.readmore a {
+    text-decoration: none;
+}
+
+/* 8888888888888888888888888888888888888888888888 */
+
+/* Services CSS */
+.services {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectscontainer {
+    display: flex;
+
+    border-radius: 40px;
+    height: 600px;
+    width: 1500px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 0px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.Des {
+    font-size: 40px;
+    text-align: center;
+}
+
+.servicebox {
+
+    height: 400px;
+    width: 400px;
+    border: 1px solid gray;
+    background-color: rgb(234, 230, 230);
+    box-shadow: 3px 3px 57px 0px black;
+    justify-content: center;
+    justify-content: space-evenly;
+    display: flex;
+    transition-duration: 0.5s;
+    flex-direction: column;
+}
+
+#android i {
+    color: green;
+}
+
+#webdesign i {
+    color: blue;
+}
+
+.domain p {
+    color: rgb(141, 137, 137);
+}
+
+.Des p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* 88888888888888888888888888888888888888888 */
+/* Contact CSS */
+
+.contactcontainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.contactbox {
+    display: flex;
+    
+
+}
+
+.sec {
+    display: flex;
+    height: 600px;
+    width: 1300px;
+    border: 1px solid rgb(217, 215, 215);
+    box-shadow: 3px 3px 62px -11px rgb(132, 113, 238, 0.7);
+}
+
+.lefticonbox {
+    margin-left: 50px;
+    display: flex;
+    height: 50%;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 23px;
+    margin-top: 50px;
+
+}
+
+.rightbox {
+    display: flex;
+    height: 50%;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.callme {
+    display: flex;
+}
+
+.email {
+    display: flex;
+}
+
+.location {
+    display: flex;
+}
+
+.phonelogo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.maillogo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.locationlogo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.rightbox{
+  padding: 8px;
+  height: 80%;
+  margin-top: 50px;
+}
+.input{
+    width: 500px;
+    margin: 20px 0px;
+    height: 49px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(242, 235, 249);
+    font-size: 20px;
+    
+}
+.textarea{
+    width: 500px;
+    height:  200px;
+    border: 1px solid gray;
+}
+.formbutton{
+    display: flex;
+    justify-content: center;
+    width: 500px;  
+}
+.submitbutton{
+    width: 260px;
+    height: 60px;
+    background-color: rgb(132, 113, 238, 0.7);
+    border: none;
+    border-radius: 10px;
+}
+.submitbutton a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+
+   
